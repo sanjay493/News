@@ -1,0 +1,108 @@
+ 
+<% include partials/top.ejs %>
+<div class="container">
+<ul>
+</ul>
+</div>
+<div class="container">
+    <div class="row">
+            <% for (var i=0; i <  dons.length; i++ ) { %>
+        <div class="col-md-3 col-sm-6">
+                
+            <div class="our-team">
+                <div class="pic">
+                    <img src="img/<%= dons[i].myimage %>" alt="<%= dons[i].card_name %>">
+                </div>
+                <div class="team-content">
+                    <h3 class="title"><%= dons[i].card_name %></h3>
+                    <span class="post"><%= dons[i].company %></span>
+                </div>
+                <ul class="social">
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
+                    <li><a href="#"><i class="fab fa-google"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <% } %>  
+
+         
+    </div>
+    
+    <blockquote class="blockquote text-right">
+            <p class="mb-0">Learnt from Online Tutorial</p>
+            <footer class="blockquote-footer"><cite title="https://youtu.be/zs8lW9WjCo4">Online Tutorial Channel at Youtube</cite></footer>
+          </blockquote>
+    <br>
+    <div class="row mt-10">
+            
+            <% for (var i=0; i <  dons.length; i++ ) { %>
+                <div class="outbox col-md-4 col-sm-6">
+
+            <div class="box1">
+                <div class="pic1">
+                        <img src="img/<%= dons[i].myimage %>" alt="<%= dons[i].card_name %>">
+                </div>
+                <div class="content1">
+                    <h3 class="title1"><%= dons[i].card_name %></h3>
+                    <span><%= dons[i].company %></span>
+                </div>
+            </div>
+        </div>
+        <% } %>
+    
+       
+    </div>
+    <br>
+     
+             <div class="box2 mb-20  mt-50">
+        <hb>After and Before Effect</hb>
+    </div>
+    <blockquote class="blockquote text-right">
+            <p class="mb-0">Lea Verou</p>
+            <footer class="blockquote-footer"><cite title="https://youtu.be/YsX4uFgyvpk">KEYNOTE Even more CSS Secrets by Lea Verou</cite></footer>
+          </blockquote>
+
+        
+       </div>
+    <section id="info2">
+        <div class="container">
+            <div class="row">
+                    <hb>Agri Startups</hb>
+        <% for (var j= 0; j <  startup.length;  j++ ) { %>
+            <div class="col-md-6 col-sm-12">
+            
+            <img src="img/<%= startup[j].poster %>" alt="Agri Startup Image" class="agri_img">
+            <h3 class="text-center"><%= startup[j].c_name %></h3>
+            <p class="para_txt"><%= startup[j].para1 %></p>
+       
+     <p class="fonder_txt">Founded in <%= startup[j].listed_on %> by <%= startup[j].founders %></p>
+     <p class="weblink"><a href="<%= startup[j].website %>" target="_blank"><%= startup[j].website %></a></p>
+            </div> 
+     <% } %>
+    </div>
+        </div>
+        <div class="container_tag">
+                <% for (var k= 0; k <  topics.length;  k++ ) { %>
+                    <div class="tag_block">
+                    <a href="#"><%= topics[k].area %></a>
+                </div>
+                    <% } %>
+        </div>
+    </section>
+
+
+
+
+
+
+
+            <div class="card-footer-fluid">
+                <p class="text-center"> Developed & Maintained by Ks <span>2019</span></p>
+            </div>
+        
+
+  
+<% include partials/bottom.ejs %>

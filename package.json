@@ -1,0 +1,27 @@
+{
+  "name": "know_the_picture",
+  "version": "1.0.0",
+  "description": "picture quiz",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanjay493/2019_Learn.git"
+  },
+  "keywords": [
+    "node",
+    "json"
+  ],
+  "author": "Kumar Sanjay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sanjay493/2019_Learn/issues"
+  },
+  "homepage": "https://github.com/sanjay493/2019_Learn#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4"
+  }
+}

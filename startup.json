@@ -1,0 +1,56 @@
+{
+    "startup": [{
+        "sl_no":"1",
+        "c_name":"Dehaat",
+        "poster" :"dehaat_shashank.png",
+        "founders": ["Shashank Kumar", "Manish Kumar"],
+        "para1":"We provide 360° solutions to farmers under one roof through our dual delivery model of technology platform and service delivery center. We connect farmers to latest technology and information, market quality input, and technical support throughout the season at affordable price. DeHaat™ is a technology-led platform to offer end to end agriculture services to Indian farmers with an aim to improve the efficiencies of agriculture value chain.DeHaat™ connects small farmers to their various needs – Seeds, fertilizers, equipment, crop advisory, and market linkage through a wide network of trained micro entrepreneurs. Registered farmers get access to a wide range of agricultural inputs (Seed, Fertilizer and Crop protection) directly from competitive sources. Subsequently, they get customized crop reminder call in the local language as well as crop monitoring support from same DeHaat™ micro-entrepreneur. Lastly, they sell the farm produce directly to institutional buyers. Farmers place their various demand related agri input, field visit or agri output either through the toll-free number or mobile application and get last mile services through assigned micro-entrepreneur.",
+        "listed_on": "2019",
+        "website" :"http://agrevolution.in/"
+         },
+  
+    {
+        "sl_no":"2",
+        "c_name":"Agroster",
+        "poster" :"agristar.jpg",
+        "founders": ["Shardul Sheth", "Sitanshu Sheth"],
+        "para1":"AgroStar is India’s foremost AgTech start-up working on the mission of #HelpingFarmersWin by providing a complete range of agri solutions at the fingertips of farmers. AgroStar’s tech platform provides a combination of agronomy advice coupled with service and agri input products that enable farmers to significantly improve their productivity and income. We use an extensive amount of data, technology and agronomy knowledge to give the right solutions (advice+products) to Indian farmers.",
+        "listed_on": "2013",
+        "website" :"https://agrostar.in/"
+
+         },
+  
+         {
+             "sl_no":"3",
+             "c_name":"Straberry in Bihar",
+              "poster" :"Strawberry.jpg",
+             "founders": ["Sikander", "Brijkishore Mehta"],
+             "para1":"Life was already tough for 18-year-old Sikandar Mehta from Chilhaki Bigha village in Bihar's Aurangabad district, but 2011 brought him fresh misery. Finishing schooling, Sikandar's graduation dreams were shattered by his father's poverty. Left with no option, he started working as a migrant worker in a strawberry farm in Hisar, Haryana. Offered Rs 3,500 a month, on the condition that he wouldn't leave before six months, the job seemed harsh, but turned out to be a blessing in disguise. As he picked up the skills, Sikandar started considering replicating the idea back home. He wondered why we shouldn't be do such farming on our land. After all, there was not much difference in the climate, When Sikandar returned home in 2013, he carried seven strawberry saplings. The entire village was sceptic. The only person to trust his instinct was his father, Brij Kishore Mehta. Together, they planted the saplings, which produced 50 daughter plants in 2014. Sikandar and his father went back to Hisar to get more strawberry saplings. This time, the yield surpassed their expectations. And got yield at Rs 750 per kg of strawberry..",
+             "listed_on": "2018",
+             "website" :"Chilhaki  Bigha, Aurangabad, Bihar"
+     
+              },
+  
+              {
+                  "sl_no":"4",
+                  "c_name":"Harbivore Farm",
+                  "poster" :"harbivore.jpg",
+                  "founders": ["Joshua Lewis", "Sakina Rajkotwala"],
+                  "para1":"Herbivore Farms is Mumbai's first hyperlocal farm that is located in the heart of the city- in Andheri. They commit to delivering reasonably priced fresh produce {straight outta the city}  to your doorstep within few hours of harvest. It is the brainchild of two very talented youngsters Sakina Rajkotwala and Joshua Lewis, who quit their full-time, high-paying jobs to work towards changing the idea of 'fresh' in the minds {and tummies} of people in Mumbai.",
+                  "listed_on": "2019",
+                  "website" :"https://www.instagram.com/herbivore.farms/"
+          
+                   },
+                   {
+                    "sl_no":"4",
+                    "c_name":"Organic Mandya",
+                    "poster" :"mandya.jpg",
+                    "founders": ["MadhuChandan Chikkadevaiah"],
+                    "para1":"Disturbed by these prevailing conditions was 37-year-old MadhuChandan Chikkadevaiah, an IT professional living the life of dreams in California, but having roots in Mandya. Madhu’s first step was to gather passionate individuals (friends and ex-colleagues) who pooled in Rs 1 crore and he registered Mandya Organic Farmers Cooperative Society, bringing together nearly 240 organic farmers in the first phase. It took him eight months to complete all the government formalities and also establish Organic Mandya – the brand under which farmers will sell their produce. Another unique initiative, Farm Share allows people to rent out farms of half to two acres for three months at approximately Rs 35,000 and grow their own food. The package allows families to stay on the farms for eight to nine nights over the three months and practice farming. In their absence, an Organic Mandya farmer will take care of the entire land. Once the yield is ready, families have the option to either sell the produce to Organic Mandya or use it for personal consumption.",
+                    "listed_on": "2018",
+                    "website" :"https://organicmandya.com/"
+            
+                     }
+                
+                   
+    ]}

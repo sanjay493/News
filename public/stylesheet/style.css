@@ -1,0 +1,276 @@
+
+.nav-link{;
+    text-transform: capitalize;
+}
+.nav-item a:hover{
+    border-right: 1px solid blue;
+    border-left: 1px solid blue;
+    font-size: 1.2rem;
+}
+.nav-item a:active {
+    border-right: 1px solid blue;
+    border-left: 1px solid blue;
+    font-size: 1.2rem;
+}
+
+.our-team{
+    padding: 3ppx 0 40px;
+    background: white;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+}
+.our-team .pic{
+    display: inline-block;
+    width: 130px;
+    height: 130px;
+    margin-bottom: 50px;
+    position: relative;
+    bottom: 135%;
+    z-index: 1;
+}
+.our-team .pic:before{
+    content: "";
+    width: 100%;
+    height: 0;
+    border-radius: 50%;
+    background: #eb1768;
+    position: absolute;
+    bottom: 135%;
+    right: 0;
+    left: 0;
+    transform: scale(3);
+    transition: all 0.3s linear 0s;
+}
+.our-team:hover .pic:before{
+    height: 100%;
+}
+.our-team .pic:after{
+    content: "";
+    width: 100%;
+    height:100%;
+    border-radius: 50%;
+    background: #ee4266;
+    position: ;
+    right: 0;
+    left: 0;
+    z-index:-1;
+}
+.our-team .pic img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    transform: scale(1);
+    transition:  all 0.9s ease 0s;
+}
+.our-team:hover .pic img{
+
+box-shadow:  0 0 0 14px #f7f5ec;
+transform: scale(0.7);
+}
+.our-team .team-content{
+    margin-bottom:30px; 
+}
+.our-team .title{
+    font-size: 22px;
+    font-weight: 700;
+    color: #4e5052;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+.our-team .post{
+    display: block;
+    font-size: 15px;
+    color: #4e5052;
+    text-transform: capitalize;
+}
+.our-team .social{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background: #eb1768;
+    position:absolute;
+    bottom: -100px;
+    left: 0;
+    transition: all 0.5s ease 0s;
+
+}
+.our-team:hover .social{
+
+bottom: 0;
+}
+.our-team .social li{
+    display: inline-block;
+}
+.our-team .social li a{
+    display: block;
+    padding: 10px;
+    font-size: 17px;
+    color: white;
+    transition: all 0.3s ease 0s;
+}
+.our-team .social li a:hover{
+color: #eb1768;
+background: #f7f5ec;
+text-decoration: none;
+}
+.row{
+}
+.outbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+.box1{
+    position: relative;
+    width: 200px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #060c21;
+    margin: 10px;
+}
+.box1::before{
+    content: ' ';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: #fff;
+    z-index: -1;
+}
+.box1::after{
+    content: ' ';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: #fff;
+    z-index: -100;
+    filter: blur(20px);
+}
+.box1::before,
+.box1::after{
+    background: linear-gradient(235deg,#89ff00,#060c21, #00bcd4);
+}
+
+
+.box1 .pic1 img{
+    width: 100%;
+    height:100%;
+    border-radius: 50%;
+    transform: scale(1.5);
+    transition: all 0.3s linear 0s;
+}
+
+.box1 .pic1 img:after{
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height:100%;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    background: #ee4266; 
+    transform: scale(1.5);
+    transition: all 0.3s linear 0s;
+    z-index: -1;
+}
+
+.box1:hover .pic1 img{
+    transform: scale(0.8);
+}
+.box1 .content1{
+    color: #fff;
+}
+.content1 .title1{
+    font-size: 20px;
+}
+.box2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+hb {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #c31;
+   display: flex;
+   width: 100%;
+   align-items: center;
+   font-size: 45px;
+}
+
+
+hb::after,
+hb::before{
+    content: "";
+    /* background: black; */
+    flex: 1;
+    height: 0.1em;
+    border: solid;
+    border-width: 5px 0;
+    margin: 0.2em;
+}
+
+.img-agri{
+float: left;
+margin-right: 2em;
+margin-left: 0.5em;
+shape-outside: circle();
+}
+
+.img-agri-tomato{
+    float: left;
+    shape-outside: polygon(207px 211px, 46px 32px, 77px 33px, 93px 54px, 110px 34px, 136px 33px, 163px 54px, 193px 44px, 222px 63px, 237px 56px, 273px 60px, 291px 78px, 292px 112px, 266px 143px, 265px 183px, 240px 202px);
+    }
+
+
+   
+    .agri_img{
+        height: 250px;
+        width: 200px;
+        margin:  0 auto;
+        border-radius: 50%;
+                
+    }
+    
+    .para_txt{
+        font-family: Calibri;
+        font-size: 1.2em;
+        color: #060c21;
+        text-align: justify;
+    }
+
+    .fonder_txt{
+        font-family: Gill Sans;
+        font-size: 1em;
+        color: #7a7979;
+        text-align: end;
+    }
+    .weblink{
+        text-align: end;
+    }
+    .container_tag{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .tag_block{
+        border: #89ff00 1px solid;
+        padding: 10px;
+        margin-left: 5px;
+    }

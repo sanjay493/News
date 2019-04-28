@@ -1,0 +1,19 @@
+{
+    "topics":[{
+        "id":"1",
+        "area":"Agri"
+    },
+    {
+        "id":"2",
+        "area":"Tech"
+    },
+    {
+        "id":"3",
+        "area":"Food"
+    },
+    {
+        "id":"4",
+        "area":"Trasport"
+    }
+]
+}

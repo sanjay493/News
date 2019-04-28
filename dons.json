@@ -1,0 +1,55 @@
+{
+    "dons": [{
+        "sl_no":"1",
+        "myimage":"elon-musk.png",
+        "card_name":"Elon Reeve Musk",
+        "company":"Tesla"
+         },
+  
+    {
+      "sl_no":"2",
+      "myimage":"jeff_bezos.jpeg",
+      "card_name":"Jeff Bezos",
+      "company":"Amazon"},
+  
+    {
+      "sl_no":"3",
+      "myimage":"jack_dorsey.jpeg",
+      "card_name":"Jack Dorsey",
+      "company":"Twitter"},
+      
+    {
+      "sl_no":"4",
+      "myimage":"Bill_gates.jpeg",
+      "card_name":"Bill Gates",
+      "company":"Microsoft"},
+
+      
+    {
+      "sl_no":"5",
+      "myimage":"larry_page.jpeg",
+      "card_name":"Larry Page",
+      "company":"Google"},
+
+      
+      {
+        "sl_no":"5",
+        "myimage":"steve jobs.jpeg",
+        "card_name":"Steve Jobs",
+        "company":"Apple"},
+
+      
+        {
+          "sl_no":"5",
+          "myimage":"mark_zuckerberg.jpeg",
+          "card_name":"Mark Zuckerberg",
+          "company":"Facebook Founder"},
+
+      
+          {
+            "sl_no":"5",
+            "myimage":"sergey_brin.jpeg",
+            "card_name":"Sergey Brim",
+            "company":"Google Co-founder"}
+
+    ]}
