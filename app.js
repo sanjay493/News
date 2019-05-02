@@ -12,6 +12,12 @@ app.get('/', routes.home);
   
 app.get('/topics/:quiz_number', routes.topic_single);
 
+
+app.get('/login',(req,res)=>{
+ res. render('login',{
+  title :"Know the Picture"
+ });
+});
 //page not found
 app.get('*', routes.notFound);
 
