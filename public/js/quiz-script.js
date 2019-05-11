@@ -1,8 +1,8 @@
-var currentQuestion =0;
-var score =0;
-var totQuestions =question.length;
+var currentQuestion = 0;
+var score = 0;
+var totQuestions = question.length;
 
-var container =document.getElementById('quizContainer');
+var qcontainer = document.getElementById('quizContainer');
 var questionEl =document.getElementById('question');
 var opt1 =document.getElementById('opt1');
 var opt2 =document.getElementById('opt2');
@@ -20,10 +20,12 @@ function loadQuestion(questionIndex){
     opt3.textContent = q.option3;
     opt4.textContent = q.option4;
 
-
 }
 
+
+
 function loadNextQuestion(){
+   
     var selectedOption = document.querySelector('input[type=radio]:checked');
     if(!selectedOption){
         alert('Please select your answer!');
@@ -40,11 +42,11 @@ function loadNextQuestion(){
         nextButton.textContent ='Finish';
     }
     if(currentQuestion==totQuestions){
-        container.style.display='none';
+        qcontainer.style.display='none';
         resultCont.style.display='';
         resultCont.textContent='Your Score : '+score;
         return;
     }
+    
     loadQuestion(currentQuestion);
 }
-loadQuestion(currentQuestion);

@@ -12,12 +12,20 @@ app.get('/', routes.home);
   
 app.get('/topics/:quiz_number', routes.topic_single);
 
-
+//login page
 app.get('/login',(req,res)=>{
  res. render('login',{
   title :"Know the Picture"
  });
 });
+
+//quiz page
+
+app.get('/myquiz',(req,res)=>{
+  res. render('myquiz',{
+   title :"Get a Quiz"
+  });
+ });
 //page not found
 app.get('*', routes.notFound);
 

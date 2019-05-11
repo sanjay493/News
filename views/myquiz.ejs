@@ -1,0 +1,15 @@
+
+<% include partials/top.ejs %>
+    
+      <div id="quizContainer" class="qcontainer">
+          <div class="title">Our Quiz</div>
+          <div class="question" id="question"></div>
+          <label class="option"><input id="" class="" type="radio" name="option" value="1"><span id="opt1"></span> </label>
+          <label class="option"><input id="" class="" type="radio" name="option" value="2"><span id="opt2"></span> </label>
+          <label class="option"><input id="" class="" type="radio" name="option" value="3"><span id="opt3"></span> </label>
+          <label class="option"><input id="" class="" type="radio" name="option" value="4"><span id="opt4"></span> </label>
+          <button id="nextButton" class="next-btn"  onclick="loadNextQuestion()">Next Question</button>
+      </div>
+      <div class="qcontainer resultCount" id="result" style="display:none;"></div>
+     
+<% include partials/bottom.ejs %>
