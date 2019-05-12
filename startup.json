@@ -42,7 +42,7 @@
           
                    },
                    {
-                    "sl_no":"4",
+                    "sl_no":"5",
                     "c_name":"Organic Mandya",
                     "poster" :"mandya.jpg",
                     "founders": ["MadhuChandan Chikkadevaiah"],
@@ -50,7 +50,47 @@
                     "listed_on": "2018",
                     "website" :"https://organicmandya.com/"
             
-                     }
+                     },
+                     {
+                      "sl_no":"6",
+                      "c_name":"Organic Mandya",
+                      "poster" :"mandya.jpg",
+                      "founders": ["MadhuChandan Chikkadevaiah"],
+                      "para1":"Disturbed by these prevailing conditions was 37-year-old MadhuChandan Chikkadevaiah, an IT professional living the life of dreams in California, but having roots in Mandya. Madhu’s first step was to gather passionate individuals (friends and ex-colleagues) who pooled in Rs 1 crore and he registered Mandya Organic Farmers Cooperative Society, bringing together nearly 240 organic farmers in the first phase. It took him eight months to complete all the government formalities and also establish Organic Mandya – the brand under which farmers will sell their produce. Another unique initiative, Farm Share allows people to rent out farms of half to two acres for three months at approximately Rs 35,000 and grow their own food. The package allows families to stay on the farms for eight to nine nights over the three months and practice farming. In their absence, an Organic Mandya farmer will take care of the entire land. Once the yield is ready, families have the option to either sell the produce to Organic Mandya or use it for personal consumption.",
+                      "listed_on": "2018",
+                      "website" :"https://organicmandya.com/"
+              
+                       },
+                       {
+                        "sl_no":"7",
+                        "c_name":"Organic Mandya",
+                        "poster" :"mandya.jpg",
+                        "founders": ["MadhuChandan Chikkadevaiah"],
+                        "para1":"Disturbed by these prevailing conditions was 37-year-old MadhuChandan Chikkadevaiah, an IT professional living the life of dreams in California, but having roots in Mandya. Madhu’s first step was to gather passionate individuals (friends and ex-colleagues) who pooled in Rs 1 crore and he registered Mandya Organic Farmers Cooperative Society, bringing together nearly 240 organic farmers in the first phase. It took him eight months to complete all the government formalities and also establish Organic Mandya – the brand under which farmers will sell their produce. Another unique initiative, Farm Share allows people to rent out farms of half to two acres for three months at approximately Rs 35,000 and grow their own food. The package allows families to stay on the farms for eight to nine nights over the three months and practice farming. In their absence, an Organic Mandya farmer will take care of the entire land. Once the yield is ready, families have the option to either sell the produce to Organic Mandya or use it for personal consumption.",
+                        "listed_on": "2018",
+                        "website" :"https://organicmandya.com/"
+                
+                         },
+                         {
+                          "sl_no":"8",
+                          "c_name":"Kamal Kisan",
+                          "poster" :"kamal-kisan.png",
+                          "founders": ["Devi Murthy"],
+                          "para1":"Devi began her journey to start Kamal Kisan by spending two years travelling across the country to meet small farmers. She also visited various institutes such as the CIAE in Bhopal and the UAS in Dharwad. Her research made her realize the large gap that existed between the needs of the Indian farmer and the expensive, large-sized, imported machinery used in farming. Devi decided to use her machine development skills to help small farmers. A hardcore city girl, Devi had never visited a farm before. But once she became focused on developing products for the sector, she began to attend farmer fairs, travel to fields across the country and survey farmers to better understand their needs and the products already available in the market. Often, she juggled her newfound interest in farm equipment with her day job at the family firm.Kamal Kisan first manufactured a vegetable planter in July 2015. The product was priced low to make it affordable to small farmers. The feedback was overwhelming. Foremost among these is the Vegetable Planter, a handy low-cost machine that eases the cultivating process of most fruit and vegetable saplings with an increased process efficiency.The planter allows for a single laborer to plant a one acre plot with vegetable seedlings within four hours, as opposed to a conventional planter that requires four laborers to achieve the same results. Furthermore, it is portable and easy to operate, manufactured with high-quality steel and equipped to adjust planting depth according to the seeds being worked with. Another popular creation is the Kamal Kisan Mulch Layer, a tractor-attached device that can lay plastic mulch sheets between three to four feet, covering soil in a single pass. The first-of-its-kind Sugarcane Planter has also received positive reviews.",
+                          "listed_on": "2013",
+                          "website" :"http://kamalkisan.com/"
+                  
+                           },
+                           {
+                            "sl_no":"9",
+                            "c_name":"ONganic",
+                            "poster" :"onganic.jpg",
+                            "founders": ["Ekta Jaju"],
+                            "para1":"In this distressing context, an agri-social startup ONganic Foods, in West Bengal, is working with 1,000 small farmers, on 200 hectors of land, across nine villages with the aim to increase their profitability by 50 percent by 2025.    Ekta Jaju, Founder of ONganic Foods, says, “We realised that finding a reliable market is the single largest challenge faced by small organic farmers. And a model that is financially sustainable and scalable can help this movement hit the tipping point it needs, to exponentially grow its impact. I am passionate about finding that model, that can revolutionise the agriculture sector for small farmers in India.” ONganic was founded in November, 2015, and has its presence in Hanskhali Block of Nadia. In the past three years, the enterprise has trained farmers in organic cultivation, input preparation, seed saving, and good post-harvest practices. It has organised farmers into a farmers’ produce company — ON Farm Fresh Innovation Producers Company Limited — supported by NABARD.“We are building our niche through product differentiation, by growing exotic, aromatic and diabetic varieties of black rice and red rice. Many of its by-products including rice husk, bran, and oil cakes, which are generated during the production phase are then sold as fish food, chicken feed, etc.” Ekta adds.Using automation and technology to bring down cost of cultivation and increase productivity, ONganic farmers receive 25 percent premiums on their produce. Farmers who grow black rice have had a 60 percent increase in their incomes, for this produce is categorised as a premium product.",
+                            "listed_on": "2015",
+                            "website" :"http://onganic.in//"
+                    
+                             }
                 
                    
     ]}

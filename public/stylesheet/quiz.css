@@ -1,8 +1,6 @@
 
 .qcontainer{
-    height: 330px;
-    width: 1000px;
-    position: absolute;
+      position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -28,7 +26,7 @@
     color: #f6f6f6;
 }
 .option{
-    width: 470px;
+
     display: inline-block;
     padding: 10px 0 10px 15px;
     vertical-align: middle;
@@ -69,7 +67,6 @@
     color: #f6f6f6;
 }
 .resultCount{
-    height: 100px;
     text-align: center;
     font-size: 75px;
 
