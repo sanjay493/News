@@ -26,6 +26,12 @@ app.get('/myquiz',(req,res)=>{
    title :"Get a Quiz"
   });
  });
+
+ app.get('/gallery',(req,res)=>{
+   res.render('gallery',{
+    title:"My Gallery" 
+   });
+ });
 //page not found
 app.get('*', routes.notFound);
 

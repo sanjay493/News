@@ -1,0 +1,43 @@
+
+:root {
+    /* Set fade in duration */
+    --fade-time: 0.5s;
+  }
+
+
+.container-image{
+    max-width: 760px;
+    margin: auto;
+    border: #fff solid 3px;
+    background: #fff;
+}
+.imgs-gallery img{
+    width: 100%;
+}
+.main-img-gallery img{
+    max-width: 660px; 
+}
+.imgs-gallery{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-gap: 2px;
+}
+
+.imgs-gallery img {
+    cursor: pointer;
+  }
+/* Fade in  animation*/
+@keyframe fadeIn {
+    to{opacity: 1;}
+}
+.fade-in{
+    opacity:  0;
+    animation: fadeIn var(--fade-time) ease-in 1 forwards;
+}
+
+/* Media Queries */
+@media(max-width: 600px) {
+    .imgs-gallery {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
