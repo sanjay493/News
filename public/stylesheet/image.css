@@ -15,7 +15,8 @@
     width: 100%;
 }
 .main-img-gallery img{
-    max-width: 660px; 
+    max-width: 300px; 
+    
 }
 .imgs-gallery{
     display: grid;

@@ -32,6 +32,11 @@ app.get('/myquiz',(req,res)=>{
     title:"My Gallery" 
    });
  });
+ app.get('/tutorials',(req,res)=>{
+  res.render('tutorials',{
+   title:"My  Tutorials" 
+  });
+});
 //page not found
 app.get('*', routes.notFound);
 
