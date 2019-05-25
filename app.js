@@ -3,6 +3,8 @@ var express = require('express');
 var app = express();
 // console.log('Hello word');
 
+
+
 app.set('view engine', 'ejs');
 var routes = require('./routes');
 var path = require('path');
@@ -37,6 +39,14 @@ app.get('/myquiz',(req,res)=>{
    title:"My  Tutorials" 
   });
 });
+
+//login page
+app.get('/do-list',(req,res)=>{
+  res. render('do-list',{
+   title :"My Do List"
+  });
+ });
+
 //page not found
 app.get('*', routes.notFound);
 

@@ -19,13 +19,8 @@ function loadQuestion(questionIndex){
     opt2.textContent = q.option2;
     opt3.textContent = q.option3;
     opt4.textContent = q.option4;
-
 }
-
-
-
 function loadNextQuestion(){
-   
     var selectedOption = document.querySelector('input[type=radio]:checked');
     if(!selectedOption){
         alert('Please select your answer!');
@@ -34,7 +29,6 @@ function loadNextQuestion(){
     var answer = selectedOption.value;
     if(question[currentQuestion].answer==answer){
         score +=10;
-
     }
     selectedOption.checked =false;
     currentQuestion++;
@@ -47,6 +41,6 @@ function loadNextQuestion(){
         resultCont.textContent='Your Score : '+score;
         return;
     }
-    
     loadQuestion(currentQuestion);
 }
+loadQuestion(currentQuestion);

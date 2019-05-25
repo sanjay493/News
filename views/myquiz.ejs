@@ -1,4 +1,6 @@
+<% include partials/top-css.ejs %>
 
+<link rel="stylesheet" href="stylesheet/quiz.css">
 <% include partials/top.ejs %>
     
       <div id="quizContainer" class="qcontainer col-md-10 col-sm-10 col-lg-8">
@@ -11,5 +13,6 @@
           <button id="nextButton" class="next-btn"  onclick="loadNextQuestion()">Next Question</button>
       </div>
       <div class="qcontainer resultCount" id="result" style="display:none;"></div>
-     
+      <script src="js/question.js"></script>
+    <script src="js/quiz-script.js"></script>
 <% include partials/bottom.ejs %>
