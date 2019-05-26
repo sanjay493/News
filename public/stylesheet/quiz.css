@@ -1,9 +1,7 @@
 
 .qcontainer{
-      position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+      position: relative;
+
     background: rgba(255, 225, 255, 0.5);
     border: 1px solid #00038c;
     box-shadow: 0 0 8px  3px #fff;
@@ -18,7 +16,7 @@
 }
 
 .question{
-    padding-top: 20px;
+    padding: 10px;
     font-size: 22px;
     background: #08038c;
     border-radius: 20px;
@@ -75,6 +73,8 @@
     background: #08038c;
     color: #000000;
 }
-
+.cur_res_cont{
+    
+}
 
 

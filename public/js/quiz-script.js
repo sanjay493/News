@@ -31,7 +31,7 @@ function loadNextQuestion(){
         score +=10;
     }
     selectedOption.checked =false;
-    currentQuestion++;
+       currentQuestion++;
     if(currentQuestion==totQuestions-1){
         nextButton.textContent ='Finish';
     }
